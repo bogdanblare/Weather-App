@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="upgrade-insecure-requests"
+		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Source+Sans+Pro:wght@900&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/a538d6fa29.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Weather app</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<header>
+				<form>
+					<div class="form-group">
+						<button class="submit-btn">
+							<i class="fas fa-search"></i>
+						</button>
+						<input type="text" placeholder="Search city" />
+						<br />
+						<span class="error-msg">No matching location found!</span>
+					</div>
+				</form>
+			</header>
+			<div class="main-weather-display info">
+				<div class="general-info">
+					<p class="condition">MOSTLY SUNNY</p>
+					<h1 class="location">UKRAINE, KIEV</h1>
+					<span class="degrees">17</span>
+				</div>
+				<div class="weather-details info">
+					<p class="feels-like">FEELS LIKE: 20</p>
+					<p class="wind_kph">WIND: 5 kph</p>
+					<p class="humidity">HUMIDITY: 69</p>
+				</div>
+			</div>
+		</div>
+		<script src="./js/script.js" defer></script>
+	</body>
+</html>
