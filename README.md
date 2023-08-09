@@ -2,6 +2,10 @@
 
 The Weather App is a web application that provides up-to-date weather information for various locations around the world. It allows users to easily access current weather conditions, forecasts, and other relevant data.
 
+## Screenshots
+
+![App Screenshot](https://github.com/bogdanblare/Weather-App/blob/main/Screenshot.png?raw=true)
+
 ## Features
 
 Location-based Weather: The app detects your current location or allows you to search for a specific location to view its weather information.
