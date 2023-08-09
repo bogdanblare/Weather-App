@@ -1,0 +1,19 @@
+{
+	"name": "weather-app",
+	"version": "1.0.0",
+	"description": "project work for The Odin curriculum",
+	"main": "index.html",
+	"scripts": {
+		"start": "open index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bogdanblare/Weather-App.git"
+	},
+	"author": "bogdanblare",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bogdanblare/Weather-App/issues"
+	},
+	"homepage": "https://github.com/bogdanblare/Weather-App#readme"
+}
