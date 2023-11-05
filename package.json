@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/bogdanblare/Weather-App#readme",
 	"devDependencies": {
+		"eslintrc": "^1.0.6",
 		"webpack": "^5.89.0"
 	}
 }
