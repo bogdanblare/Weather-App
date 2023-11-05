@@ -15,5 +15,8 @@
 	"bugs": {
 		"url": "https://github.com/bogdanblare/Weather-App/issues"
 	},
-	"homepage": "https://github.com/bogdanblare/Weather-App#readme"
+	"homepage": "https://github.com/bogdanblare/Weather-App#readme",
+	"devDependencies": {
+		"webpack": "^5.89.0"
+	}
 }
